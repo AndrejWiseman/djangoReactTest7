@@ -1,14 +1,17 @@
 import Note from './components/Notes'
+import Layout from './components/Layout'
 
 
 function App() {
   return (
-    <div className="main">
-      <h1>Zdravo svete!</h1>
+      <Layout>
+        <div className="main">
+          <h1>Zdravo svete!</h1>
 
-        <Note />
+            <Note />
 
-    </div>
+        </div>
+      </Layout>
   );
 }
 
