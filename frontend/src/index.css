@@ -30,7 +30,12 @@ body {
   color: yellow;
 }
 
-
+.note h2 {
+  color: #a41515;
+}
+.note p {
+  color: #1b6d85;
+}
 
 
 

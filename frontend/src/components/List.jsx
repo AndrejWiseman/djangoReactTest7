@@ -2,9 +2,9 @@ function List(props){
 
     return (
         <div className="note">
-            <h1 >  Title: {props.name} </h1>
-            <p > Content: {props.genre}</p>
-            <p > Content: {props.starring}</p>
+            <h2 >  Film: {props.name} </h2>
+            <p > Zanr: {props.genre}</p>
+            <p > Uloge: {props.starring}</p>
         </div>
     )
   }
