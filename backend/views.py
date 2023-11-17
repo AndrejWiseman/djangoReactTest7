@@ -6,7 +6,9 @@ from rest_framework import viewsets
 
 # Create your views here.
 def front(request):
-    context = { }
+    context = {
+
+    }
     return render(request, "index.html", context)
 
 
